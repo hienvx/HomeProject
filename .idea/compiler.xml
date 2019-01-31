@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HomeProject" />
         <module name="storm.client" />
-        <module name="storm.core" />
-        <module name="storm.hotline" />
-        <module name="storm.management" />
-        <module name="storm.sell" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="storm.core" target="1.5" />
+      <module name="storm.hotline" target="1.5" />
+      <module name="storm.management" target="1.5" />
+      <module name="storm.sell" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
